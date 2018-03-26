@@ -2,7 +2,7 @@ lsb_release -a # server information
 
 # User group
 sudo usermod -a -G www-data gusdecool # add existing group to existing user
-sudo chown -R root:www-data  /var/www/ # set group www-data to folder www/
+sudo chown -R root:www-data /var/www/ # set group www-data to folder www/
 sudo chmod -R 775 /var/www/ # chmod to allow group
 
 # installation Apache & PHP
