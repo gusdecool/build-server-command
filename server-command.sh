@@ -1,7 +1,7 @@
 lsb_release -a # server information
 
 # installation Apache & PHP
-sudo apt-get install zip apache2 libapache2-mod-php php-cli php-curl php-mysql php-mcrypt php-zip composer
+sudo apt-get install zip apache2 libapache2-mod-php php-cli php-curl php-mysql php-mcrypt php-zip php-dom composer
 
 # User group
 sudo usermod -a -G www-data gusdecool # add existing group to existing user
